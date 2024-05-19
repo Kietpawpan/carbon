@@ -4,7 +4,23 @@ _through the ZPOT Kaeokla for You Project_
 ## Background
 Based on Thailand’s population, the country was estimated to emit around 2,887.04 tonCO2eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] How?
 
-__Kaeokla for You__ is a carbon emision reduction and CO<sub>2</sub> reduction project by Zoological Park Organization of Thailand (ZPOT). The positive impact on carbon reduction from the project can be evaluated using CO<sub>2</sub> Evaluator, a web app for evaluating the potential atmospheric carbon reduction and the potential carbon emission reduction due to plastic-cup resue for seeding. The app has been deployed at https://esc.mnre.go.th/app/co2/
+Since 2023, ZPOT conducted a project called "_Kaeokla for You_", to let governmental staffs contribute to carbon emision reduction and carbon sequestration through plastic cup resue for reforestration. Below is the project activities:
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop HealthCheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+The positive impact on carbon reduction from the project can be evaluated using CO<sub>2</sub> Evaluator, a web app for evaluating the potential atmospheric carbon reduction and the potential carbon emission reduction due to plastic-cup resue for seeding. The app has been deployed at https://esc.mnre.go.th/app/co2/
 
 The outcomes of the Kaeokla for You Project can be displayed as follows:
 
