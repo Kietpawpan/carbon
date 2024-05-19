@@ -1,5 +1,5 @@
-# Potentail Carbon Reduction
-_through the ZPOT Kaeokla for You Project_
+# Potential Carbon Reduction
+_due to the ZPOT Kaeokla for You Project_
 
 ## Background
 Based on Thailand’s population, the country was estimated to emit around 2,887.04 tonCO2eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] How?
