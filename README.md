@@ -12,7 +12,7 @@ sequenceDiagram
     ZPOT-->>Others: Request for box placing areas
     Note over Others: Consideration
     Others-->>ZPOT: Say yes
-    ZPOT->>Others: Place the boxes
+    ZPOT->>Others: Supply the boxes
     Note over Others: Plastic cup reuse extention
     Note right of Others: Keep colleting for 9 months
     Note over Others: Count the number of plastic cups
