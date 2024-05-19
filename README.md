@@ -14,7 +14,7 @@ sequenceDiagram
     Others-->>ZPOT: Say yes
     ZPOT->>Others: Supply the boxes
     Note over Others: Plastic cup gathering extention
-    Note right of Others: Keep colleting for 9 months
+    Note right of Others: After 9 months
     Note over Others: Count the number of plastic cups
     Others->>ZPOT: Collection
     Note over ZPOT: Counting
