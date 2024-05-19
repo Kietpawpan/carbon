@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>MNRE | Carbon</title>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+
+
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>ESC.MNRE.GO.TH</b></h1>
+   <p>
+   <i class="fa fa-home" style="font-size:20px;" onclick="location.href='https://esc.mnre.go.th'"></i> 
+   บริการอิเล็กทรอนิกส์ <span class="w3-tag">MNRE SLC</span> 
+  | <i class="fa fa-thumbs-o-up " onclick="location.href='https://esc.mnre.go.th/credit.html'"> Credits</i> 
+  | <i class="fa fa-envelope-o " onclick="location.href='https://esc.mnre.go.th/contact.php'"> Contact</i></p>
+
+<style>
+.myapp{
+font-family:"Kanit";
+}
+
+.ref{
+        padding-left: 1.5em;
+        text-indent:-1.5em;
+}
+</style>
+  
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+ 
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+     <div class="w3-container">
+      <h3 style="background-color:green;color:white;text-align:center;margin-top:0px;"><b>CO<sub>2</sub> Evaluator
+		</b>
+      </h3>
+      <h5><span class="w3-opacity">โปรแกรมคำนวณอัตราการดูดกลับและลด CO<sub>2</sub> กรณีรวบรวมแก้วพลาสติกไปเพาะกล้าไม้ เพื่อปลูกป่า เช่น โครงการแก้วกล้าเพื่อเธอ (Kaeokla for You) ขององค์การสวนสัตว์แห่งประเทศไทย ในพระบรมราชูปถัมภ์ ร่วมกับสำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม กรมป่าไม้ กรมการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม กรมทรัพยากรน้ำ และเมืองพัทยา</span><br><br>
+
+<div class="myapp">จำนวนแก้วต่อเดือน ที่จะนำไปเพาะกล้าไม้<br>
+<input id="cup" placeholder="100"><br><br>
+
+<div class="myapp">การปลูกป่า<br>
+<select id="tree">
+<option value="">เลือกชนิดพรรณไม้</option>
+<option value="sak">สัก</option>
+<option value="yuka">ยูคาลิปตัส</option>
+<option value="thepha">กระถินเทพา</option>
+<option value="narong">กระถินณรงค์</option>
+<option value="yak">กระถินยักษ์</option>
+</select>
+<br><br>
+
+<div class="myapp">ใช้กล้าไม้ แก้วละกี่ต้น<br>
+<input id="treePerCup" placeholder="1"><br>
+
+<div class="myapp">*จะนำกล้าไม้ไปปลูกป่าต่อไป (200 ต้นต่อไร่)<br>
+<input id="treePerRai" placeholder="200" value=200 disabled hidden><br>
+
+<div class="myapp">ความเหมาะสมของพื้นที่เพาะปลูก<br>
+<select id="area">
+	<option value="">เลือกความเหมาะสม</option>
+	<option value="much">มาก</option>
+	<option value="moderate">ปานกลาง</option>
+	<option value="less">น้อย</option>
+</select>
+<br><br>
+
+
+<div class="myapp">ร้อยละของอัตรารอด<br>
+<input id="survival" placeholder="80"><br><br>
+
+
+</h5>
+    </div>
+    <div class="w3-container">
+      <p></p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"
+		  onclick="carbonRuduction();"
+		  ><b>RUN »</b></button></p>
+        </div>
+</div>
+<div id="output" class="myapp"></div>
+<br><br>
+<div class="myapp" style="color:blue">
+<b>เงื่อนไขที่ใช้คำนวณ (Assumptions)</b><br>
+1. แก้วพลาสติก 1 ใบ ขนาด 22 ออนซ์ มีน้ำหนัก 12 กรัม (0.012 kg)<br>
+2. ร้อยละ 7.8 ของแก้วพลาสติกที่ใช้แล้ว หากไม่มีการจัดเก็บเพื่อใช้ซ้ำ จะถูกนำไปกำจัดโดยการเผา<br> 
+3. การเผาผลิตภัณฑ์พลาสติกในที่โล่ง มี Emission Factor เท่ากับ 3.54 kgCo<sub>2</sub>eq/kg (Kittithammavong <i>et al</i>., 2023)<br>
+4. การกักเก็บคาร์บอน (Carbon sequestration) เป็นไปตามผลการศึกษาขององค์การบริหารจัดการก๊าซเรือนกระจก (2559)
+</div><br><br>
+
+<div class="myapp"><b>เอกสารอ้างอิง</b><br></div>
+
+<div class="ref">
+องค์การบริหารจัดการก๊าซเรือนกระจก. 2559. การกักเก็บคาร์บอน (Carbon sequestration). ใน <a href="Tree_version02.pdf">ปลูกต้นไม้ลดโลกร้อนได้อย่างไรนะ</a>. หน้า 36-37.  
+</div>
+
+<div class="ref">
+Kietpawpan, M. 2024. Potential Carbon Reduction through the ZPOT Kaeokla for You Project. <a href="https://github.com/Kietpawpan/carbon/blob/main/README.md#potentail-carbon-reduction">Github Public Repository</a>.   
+</div>
+
+<div class="ref">Kittithammavong, V., Khanitchaidecha, W., and P. Thongsanit. 2023. CO<sub>2</sub> Emissions from Plastic Consumption Behaviors in Thailand. <a href="https://www.mdpi.com/2071-1050/15/16/12135">Sustainability 15(16):12135</a></div>
+
+
+
+</p>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+
+
+
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top"><p align="center">
+  <img class="w3-animate-fading" src="https://esc.mnre.go.th/info/img/mnre.png" style="width:50%"></p>
+    <div class="w3-container w3-white">
+      <h4><b>MNRE SLC</b></h4>
+      <p onclick="location.href='timeline.php'">โครงการพัฒนาบริการอิเล็กทรอนิกส์ของศูนย์บริการร่วมกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม</p>
+    </div>
+  </div><hr>
+  
+</div><br>
+
+<!-- END w3-content -->
+</div>
+<center>Copyright &copy; 2024 MNRE Service Link Center All rights reserved.<br><a style="text-decoration:none" href="https://esc.mnre.go.th/terms.html">เงื่อนไขบริการ</a> | <i class="fa fa-external-link " onclick="location.href='https://www.mnre.go.th/th/policy/content/1049'"> นโยบายความเป็นส่วนตัว</i>
+
+
+</center>
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="window.open('https://esc.mnre.go.th/', '_self')">Home</button>
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Next »</button>
+</footer>
+<script type="text/javascript" src="kaeokla.js">
+</script>
+</body>
+</html>
