@@ -8,8 +8,12 @@ Since 2023, ZPOT conducted a project called "_Kaeokla for You_", to let governme
 
 ```mermaid
 sequenceDiagram
-    Note over ZPOT: Prepare fantacy bins  
-    ZPOT->>Others: Request for bin placing areas
+    Note over ZPOT: Prepare fantacy boxes  
+    ZPOT->>Others: Request for box placing areas
+    Note over Others: Consideration
+    Others-->ZPOT: Say yes
+    ZPOT-->Others: Place the boxes
+    Note over Others: Plastic cup reuse extention
     Note right of Others: Keep colleting for 9 months
 ```
 
