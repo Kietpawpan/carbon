@@ -8,8 +8,6 @@ Since 2023, ZPOT conducted a project called "_Kaeokla for You_", to let governme
 
 ```mermaid
 sequenceDiagram
-    participant Alice
-    participant Bob
     Alice->>John: Hello John, how are you?
     loop HealthCheck
         John->>John: Fight against hypochondria
