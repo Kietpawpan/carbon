@@ -19,7 +19,7 @@ sequenceDiagram
     Others->>ZPOT: Collection
     Note over ZPOT: Counting
     ZPOT->>RFD: Send used plastic cups
-    Note over RFD: Use for seeding
+    Note over RFD: Reuse for seeding
     Note over RFD: Reforestration
 ```
 
