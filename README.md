@@ -13,7 +13,7 @@ sequenceDiagram
     loop Cooperation
         Other_Organizations:->>Other_Organizations: Allow and collect plastic cups
     end
-    Note right of Other_Organizations: Keep colleting for 9 months<br/>prevail!
+    Note right of Other_Organizations: Keep colleting for 9 months
 ```
 
 The positive impact on carbon reduction from the project can be evaluated using CO<sub>2</sub> Evaluator, a web app for evaluating the potential atmospheric carbon reduction and the potential carbon emission reduction due to plastic-cup resue for seeding. The app has been deployed at https://esc.mnre.go.th/app/co2/
