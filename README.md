@@ -9,11 +9,11 @@ Since 2023, ZPOT conducted a project called "_Kaeokla for You_", to let governme
 ```mermaid
 sequenceDiagram
     Note over ZPOT: Prepare fantacy bins  
-    ZPOT->>Other Organizations: Request for bin placing areas
+    ZPOT->>Other_Organizations: Request for bin placing areas
     loop Cooperation
-        Other Organizations:->>Other Organizations: Allow and collect plastic cups
+        Other_Organizations:->>Other_Organizations: Allow and collect plastic cups
     end
-    Note right of Other Organizations: Keep colleting for 9 months<br/>prevail!
+    Note right of Other_Organizations: Keep colleting for 9 months<br/>prevail!
 ```
 
 The positive impact on carbon reduction from the project can be evaluated using CO<sub>2</sub> Evaluator, a web app for evaluating the potential atmospheric carbon reduction and the potential carbon emission reduction due to plastic-cup resue for seeding. The app has been deployed at https://esc.mnre.go.th/app/co2/
