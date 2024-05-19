@@ -15,6 +15,12 @@ sequenceDiagram
     ZPOT-->Others: Place the boxes
     Note over Others: Plastic cup reuse extention
     Note right of Others: Keep colleting for 9 months
+    Note over others: Count the number of plastic cups
+    Others-->ZPOT: Collection
+    Note over ZPOT: Counting
+    ZPOT-->RFD: Send used plastic cups
+    Note over RFD: Use for seeding
+    Note right of RFD: Reforestration
 ```
 
 The positive impact on carbon reduction from the project can be evaluated using CO<sub>2</sub> Evaluator, a web app for evaluating the potential atmospheric carbon reduction and the potential carbon emission reduction due to plastic-cup resue for seeding. The app has been deployed at https://esc.mnre.go.th/app/co2/
