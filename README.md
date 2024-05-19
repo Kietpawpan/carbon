@@ -9,16 +9,16 @@ Since 2023, ZPOT conducted a project called "_Kaeokla for You_", to let governme
 ```mermaid
 sequenceDiagram
     Note over ZPOT: Prepare fantacy boxes  
-    ZPOT->>Others: Request for box placing areas
+    ZPOT-->>Others: Request for box placing areas
     Note over Others: Consideration
     Others-->ZPOT: Say yes
-    ZPOT-->Others: Place the boxes
+    ZPOT->Others: Place the boxes
     Note over Others: Plastic cup reuse extention
     Note right of Others: Keep colleting for 9 months
     Note over Others: Count the number of plastic cups
-    Others-->ZPOT: Collection
+    Others->ZPOT: Collection
     Note over ZPOT: Counting
-    ZPOT-->RFD: Send used plastic cups
+    ZPOT->RFD: Send used plastic cups
     Note over RFD: Use for seeding
     Note right of RFD: Reforestration
 ```
