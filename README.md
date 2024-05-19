@@ -10,9 +10,6 @@ Since 2023, ZPOT conducted a project called "_Kaeokla for You_", to let governme
 sequenceDiagram
     Note over ZPOT: Prepare fantacy bins  
     ZPOT->>Others: Request for bin placing areas
-    loop Cooperation
-        Others:->>Others: Allow and collect plastic cups
-    end
     Note right of Others: Keep colleting for 9 months
 ```
 
