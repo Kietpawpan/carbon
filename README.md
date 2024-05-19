@@ -15,7 +15,7 @@ sequenceDiagram
     ZPOT-->Others: Place the boxes
     Note over Others: Plastic cup reuse extention
     Note right of Others: Keep colleting for 9 months
-    Note over others: Count the number of plastic cups
+    Note over Others: Count the number of plastic cups
     Others-->ZPOT: Collection
     Note over ZPOT: Counting
     ZPOT-->RFD: Send used plastic cups
