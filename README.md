@@ -45,7 +45,7 @@ Hence, we have both sides of carbon reduction: to reduce carbon emission and to 
 > _CE = c * w * e_    
 
 where,
-- _CE_ is carbon emission from plastic cup reuse (tonCO<sub>2</sub>eq)
+- _CE_ is carbon emission from burning plastic cups (tonCO<sub>2</sub>eq)
 - _c_ is the number of burned plastic cups (cups)
 - _w_ is the weight of one plastic cup (0.015 kg) 
 - _e_ is the average emission factor from plastic cup burning (3.54 kgCO<sub>2</sub>eq/kg).
