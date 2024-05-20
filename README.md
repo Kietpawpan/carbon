@@ -4,7 +4,7 @@ _from plastic cup reuse for seed cultivation and reforestration due to the ZPOT 
 ![Kaihla for Yoy](https://kietpawpan.github.io/carbon/kaeokla.jpg)
 
 ## Background
-Thailand was estimated to emit around 2,887.04 tonCO<sub>2</sub>eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] Therefore, in 2023, Zoological Park Organization of Thailand (ZPOT) conducted a project called ["_Kaeokla for You_"](https://www.thairath.co.th/futureperfect/articles/2724870), to reduce carbon emission and to increase carbon sequestration by collecting used plastic cups and giving them to the Royal Forest Department (RFD) for reuse in seed cultivation in reforestration projects. Below is the project activities:
+Thailand was estimated to emit around 2,887.04 tonCO<sub>2</sub>eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] Therefore, in 2023, Zoological Park Organization of Thailand (ZPOT) conducted a project called ["_Kaeokla for You_"](https://www.thairath.co.th/futureperfect/articles/2724870), to reduce carbon emission and increase carbon sequestration by collecting used plastic cups and sending them to the Royal Forest Department (RFD) for reuse in seed cultivation in reforestration projects. Below is the project activities:
 
 ```mermaid
 sequenceDiagram
