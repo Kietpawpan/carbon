@@ -41,7 +41,7 @@ flowchart LR
 ```
 Hence, we have both sides of carbon reduction: carbon emission reduction and carbon absorption via sequestration.  
 
-## Carbon Emission Reduction (CER)
+### Carbon Emission Reduction (CER)
 > _CER = c * w * e_    
 
 where,
@@ -50,7 +50,7 @@ where,
 - _w_ is the weight of one plastic cup (0.015 kg) 
 - _e_ is the average emission factor from plastic cup burning (3.54 kgCO<sub>2</sub>eq/kg).
 
-## Potential Carbon Reduction (CR)
+### Potential Carbon Reduction (CR)
 > _CR = n * m * t * 1/d * s_
 
 where,
