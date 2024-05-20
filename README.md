@@ -85,7 +85,7 @@ else if(tree=="yak" && area=="less"){cr=0.77;}
 
 else{cr=0;}
 ```
-where, sak is teak (_Tectona grandis_), yuka is , thepha is _Acacia mangium_, narong is _Acacia auriculiformis_, and yak is _Leucaena leucocephala_.   
+where, sak refers to teak (_Tectona grandis_), yuka Eucalyptus (_Eucalyptus melliodora_), thepha _Acacia mangium_, narong _Acacia auriculiformis_, and yak _Leucaena leucocephala_.   
 
 ## Hypotheses
 1. Plastic cups are 12 g each.
