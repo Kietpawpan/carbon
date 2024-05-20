@@ -47,7 +47,7 @@ Hence, we have two sides of carbon management: carbon emission reduction and car
 > _CE = c * w * e_    
 
 where,
-- _CE_ is carbon emission from burning plastic cups (tonCO<sub>2</sub>eq)
+- _CE_ is carbon emission from plastic cup burning (tonCO<sub>2</sub>eq)
 - _c_ is the number of burned plastic cups (cups)
 - _w_ is the weight of a plastic cup (0.012 kg) 
 - _e_ is the average emission factor from plastic product burning (3.54 kgCO<sub>2</sub>eq/kg).[^1]
