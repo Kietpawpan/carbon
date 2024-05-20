@@ -52,12 +52,12 @@ font-family:"Kanit";
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
      <div class="w3-container">
-      <h3 style="background-color:green;color:white;text-align:center;margin-top:0px;"><b>CO<sub>2</sub> Evaluator
+      <h3 style="background-color:green;color:white;text-align:center;margin-top:0px;"><b>CRE
 		</b>
       </h3>
-      <h5><span class="w3-opacity">โปรแกรมคำนวณอัตราการดูดกลับและลด CO<sub>2</sub> กรณีรวบรวมแก้วพลาสติกไปเพาะกล้าไม้ เพื่อปลูกป่า เช่น โครงการแก้วกล้าเพื่อเธอ (Kaeokla for You) ขององค์การสวนสัตว์แห่งประเทศไทย ในพระบรมราชูปถัมภ์ ร่วมกับสำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม กรมป่าไม้ กรมการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม กรมทรัพยากรน้ำ และเมืองพัทยา</span><br><br>
+      <h5><span class="w3-opacity">Carbon Reduction Evaluator (CRE) ใช้ประเมินอัตราการดูดกลับและลด CO<sub>2</sub> จากโครงการแก้วกล้าเพื่อเธอ (Kaeokla for You) ขององค์การสวนสัตว์แห่งประเทศไทย ในพระบรมราชูปถัมภ์ โดยมีสำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม กรมป่าไม้ กรมการเปลี่ยนแปลงสภาพภูมิอากาศและสิ่งแวดล้อม กรมทรัพยากรน้ำ และเมืองพัทยาเข้าร่วมโครงการ ในปีงบประมาณ พ.ศ. 2566-2567</span><br><br>
 
-<div class="myapp">จำนวนแก้วต่อเดือน ที่จะนำไปเพาะกล้าไม้<br>
+<div class="myapp">จำนวนแก้วต่อเดือน ที่นำไปบริจาคให้กรมป่าไม้เพื่อเพาะกล้าไม้<br>
 <input type="number" id="cup" placeholder="100"><br><br>
 
 <div class="myapp">การปลูกป่า<br>
@@ -71,13 +71,13 @@ font-family:"Kanit";
 </select>
 <br><br>
 
-<div class="myapp">ใช้กล้าไม้ แก้วละกี่ต้น<br>
+<div class="myapp">ใช้กล้าไม้ แก้วละกี่ต้น*<br>
 <input id="treePerCup" placeholder="1"><br>
 
-<div class="myapp">*จะนำกล้าไม้ไปปลูกป่าต่อไป (200 ต้นต่อไร่)<br>
+<div class="myapp">*จะนำกล้าไม้ไปปลูกป่า ความหนาแน่น 200 ต้นต่อไร่<br>
 <input type="number" id="treePerRai" placeholder="200" value=200 disabled hidden><br>
 
-<div class="myapp">ความเหมาะสมของพื้นที่เพาะปลูก<br>
+<div class="myapp">ความเหมาะสมของพื้นที่ปลูกป่า<br>
 <select id="area">
 	<option value="">เลือกความเหมาะสม</option>
 	<option value="much">มาก</option>
@@ -105,11 +105,11 @@ font-family:"Kanit";
 <div id="output" class="myapp"></div>
 <br><br>
 <div class="myapp" style="color:blue">
-<b>เงื่อนไขที่ใช้คำนวณ (Assumptions)</b><br>
+<b>เงื่อนไขที่ใช้คำนวณ</b><br>
 1. แก้วพลาสติก 1 ใบ ขนาด 22 ออนซ์ มีน้ำหนัก 12 กรัม (0.012 kg)<br>
 2. ร้อยละ 7.8 ของแก้วพลาสติกที่ใช้แล้ว หากไม่มีการจัดเก็บเพื่อใช้ซ้ำ จะถูกนำไปกำจัดโดยการเผา<br> 
 3. การเผาผลิตภัณฑ์พลาสติกในที่โล่ง มี Emission Factor เท่ากับ 3.54 kgCo<sub>2</sub>eq/kg (Kittithammavong <i>et al</i>., 2023)<br>
-4. การกักเก็บคาร์บอน (Carbon sequestration) เป็นไปตามผลการศึกษาขององค์การบริหารจัดการก๊าซเรือนกระจก (2559)
+4. การกักเก็บคาร์บอน (Carbon sequestration) เป็นไปตามผลการวิจัยขององค์การบริหารจัดการก๊าซเรือนกระจก (2559) โดยมีสมมติฐานว่า ต้นไม้เติบโตเท่ากันทุกปี กรณีปลูกต้นไม้ด้วยความหนาแน่น 200 ต้น/ไร่
 </div><br><br>
 
 <div class="myapp"><b>เอกสารอ้างอิง</b><br></div>
@@ -119,7 +119,7 @@ font-family:"Kanit";
 </div>
 
 <div class="ref">
-Kietpawpan, M. 2024. Potential Carbon Reduction through the ZPOT Kaeokla for You Project. <a href="https://github.com/Kietpawpan/carbon/blob/main/README.md#potentail-carbon-reduction">Github Public Repository</a>.   
+Kietpawpan, M. 2024. Potential Carbon Reduction from Plastic Cup Reuse for Seed Cultivation and Reforestration due to the ZPOT Kaeokla for You Project. <a href="https://github.com/Kietpawpan/carbon/blob/main/README.md#potential-carbon-reduction">Github Public Repository</a>. (access May 19, 2024)   
 </div>
 
 <div class="ref">Kittithammavong, V., Khanitchaidecha, W., and P. Thongsanit. 2023. CO<sub>2</sub> Emissions from Plastic Consumption Behaviors in Thailand. <a href="https://www.mdpi.com/2071-1050/15/16/12135">Sustainability 15(16):12135</a></div>
