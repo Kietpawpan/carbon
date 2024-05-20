@@ -11,7 +11,7 @@ sequenceDiagram
     Note over ZPOT: Prepare fantacy boxes  
     ZPOT-->>Other Organizations: Request for box placing areas
     Note over Other Organizations: Consideration
-    Other Organizations-->>ZPOT: Say yes
+    Other Organizations-->>ZPOT: Approve
     ZPOT->>Other Organizations: Supply the boxes
     Note over Other Organizations: Plastic cup gathering extention
     Note right of Other Organizations: After 9 months
