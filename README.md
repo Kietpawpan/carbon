@@ -87,8 +87,8 @@ else{cr=0;}
 ## Hypotheses
 1. Plastic cups are 12 g each.
 2. 7.8% of all the plastic cups are subject to open burning.
-3. Emission factor (open burning) of plastic products is 3.54 kgCo2eq/kg (Kittithammavong et al., 2023)
-4. Carbon sequestration is taken from TGO (2559)
+3. Emission factor (open burning) of plastic products is 3.54 kgCo2eq/kg[^1]
+4. Carbon sequestration depends on tree species and land suitability[^2]
 
 
 __References__
