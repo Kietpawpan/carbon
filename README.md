@@ -49,7 +49,7 @@ Hence, we have two sides of carbon management: carbon emission reduction and car
 where,
 - _CE_ is carbon emission from plastic cup burning (tonCO<sub>2</sub>eq)
 - _c_ is the number of burned plastic cups (cups)
-- _w_ is the weight of a plastic cup (0.012 kg) 
+- _w_ is the average weight of plastic cups (0.012 kg) 
 - _e_ is the average emission factor from plastic product burning (3.54 kgCO<sub>2</sub>eq/kg).[^1]
 
 ### Potential Carbon Reduction (CR)
