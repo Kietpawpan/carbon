@@ -52,16 +52,16 @@ where,
 - _w_ is the average weight of plastic cups (0.012 kg) 
 - _EF_ is the average emission factor from plastic product burning (3.54 kgCO<sub>2</sub>eq/kg).[^1]
 
-### Potential Carbon Reduction (CR)
-> _CR = n * m * t * 1/d * s_
+### Potential Carbon Reduction (PCR)
+> _PCR = n * m * t * 1/d * cr_
 
 where,
-- _CR_ is the potential carbon reduction due to sequestration (tonCO<sub>2</sub>eq/year)
+- _PCR_ is the potential carbon reduction due to sequestration (tonCO<sub>2</sub>eq/year)
 - _n_ is the number plastic cups collected (cups/month)
 - _m_ is the number of months per year (12 months/year)
 - _t_ is the number of seeds per cup (seeds/cup) 
 - _d_ is the plantation density (200 trees/Rai)
-- _s_ is carbon reduction rate due to sequestration (tonCO<sub>2</sub>eq/Rai/year), determined by tree species and plantation area suitability[^2], expressed in JavaScript as follows:
+- _cr_ is carbon reduction rate due to sequestration (tonCO<sub>2</sub>eq/Rai/year), determined by tree species and plantation area suitability[^2], expressed in JavaScript as follows:
   
 ```
 var cr = "";
