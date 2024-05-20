@@ -39,7 +39,7 @@ flowchart LR
     D-->|no| H[burning]
     H-->I[carbon emission]
 ```
-Hence, we have:
+Hence, we have both sides of carbon reduction: carbon emission reduction and carbon absorption via sequestration.  
 
 ## Carbon Emission Reduction (CER)
 > _CER = c * w * e_    
