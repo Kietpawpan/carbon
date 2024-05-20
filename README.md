@@ -4,7 +4,7 @@ _from plastic cup reuse for seed cultivation and reforestration due to the ZPOT 
 ![Kaihla for Yoy](https://kietpawpan.github.io/carbon/kaeokla.jpg)
 
 ## Background
-Thailand was estimated to emit around 2,887.04 tonCO<sub>2</sub>eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] Therefore, the Zoological Park Organization of Thailand (ZPOT) conducted a project called ["_Kaeokla for You_"](https://www.thairath.co.th/futureperfect/articles/2724870), to reduce carbon emission and increase carbon sequestration, by collecting used plastic cups and sending them to the Royal Forest Department (RFD) for reuse in seed cultivation in reforestration projects. Below is the project activities:
+Thailand was estimated to emit around 2,887.04 tonCO<sub>2</sub>eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] Therefore, the Zoological Park Organization of Thailand (ZPOT) conducted a project called ["_Kaeokla for You_"](https://www.thairath.co.th/futureperfect/articles/2724870), to reduce carbon emission and increase carbon sequestration, by collecting used plastic cups and sending them to the Royal Forest Department (RFD) for reuse in seed cultivation in governmental reforestration projects. Below is the project activities:
 
 ```mermaid
 sequenceDiagram
@@ -88,7 +88,7 @@ else{cr=0;}
 1. Plastic cups are 12 g each.
 2. 7.8% of all the plastic cups are subject to open burning.
 3. Emission factor (open burning) of plastic products is 3.54 kgCo2eq/kg.[^1]
-4. Carbon sequestration depends on tree species and land suitability.[^2]
+4. Carbon sequestration depends on both tree species and plantation area suitability.[^2]
 
 
 __References__
