@@ -16,7 +16,7 @@ sequenceDiagram
     Note over Other Organizations: Plastic cup gathering extention
     Note right of Other Organizations: After 9 months
     Note over Other Organizations: Count the number of plastic cups
-    Other Organizations->>ZPOT: Collection
+    Other Organizations->>ZPOT: Return the boxes with plastic cups
     Note over ZPOT: Counting
     ZPOT->>RFD: Send used plastic cups
     Note over RFD: Reuse for seeding
