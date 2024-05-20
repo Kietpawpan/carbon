@@ -2,7 +2,7 @@
 _due to the ZPOT Kaeokla for You Project_
 
 ## Background
-Based on Thailand’s population, the country was estimated to emit around 2,887.04 tonCO2eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] How?
+Based on Thailand’s population, the country was estimated to emit around 2,887.04 tonCO<sub>2</sub>eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] How?
 
 Since 2023, ZPOT conducted a project called "_Kaeokla for You_", to let governmental staffs contribute to carbon emision reduction and carbon sequestration through plastic cup resue for reforestration. Below is the project activities:
 
