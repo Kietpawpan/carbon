@@ -45,7 +45,7 @@ Hence, we have both sides of carbon reduction: carbon emission reduction and car
 > _CER = c * w * e_    
 
 where,
-- _CER_ is carbon emision reduction due to plastic cup burning (tonCO<sub>2</sub>eq)
+- _CER_ is carbon emission reduction from plastic cup reuse (tonCO<sub>2</sub>eq)
 - _c_ is the number of burned plastic cups (cups)
 - _w_ is the weight of one plastic cup (0.015 kg) 
 - _e_ is the average emission factor from plastic cup burning (3.54 kgCO<sub>2</sub>eq/kg).
