@@ -18,7 +18,7 @@ sequenceDiagram
     Note over Other Organizations: Count the number of plastic cups
     Other Organizations->>ZPOT: Return the boxes with plastic cups
     Note over ZPOT: Counting
-    ZPOT->>RFD: Send used plastic cups
+    ZPOT->>RFD: Send the collected plastic cups
     Note over RFD: Reuse for seeding
     Note over RFD: Reforestration
 ```
