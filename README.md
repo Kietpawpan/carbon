@@ -9,14 +9,14 @@ In 2023, Zoological Park Organization of Thailand (ZPOT) conducted a project cal
 ```mermaid
 sequenceDiagram
     Note over ZPOT: Prepare fantacy boxes  
-    ZPOT-->>Other Agencies: Request for box placing areas
-    Note over Others: Consideration
-    Others-->>ZPOT: Say yes
-    ZPOT->>Others: Supply the boxes
-    Note over Others: Plastic cup gathering extention
-    Note right of Others: After 9 months
-    Note over Others: Count the number of plastic cups
-    Others->>ZPOT: Collection
+    ZPOT-->>Other Organizations: Request for box placing areas
+    Note over Other Organizations: Consideration
+    Other Organizations-->>ZPOT: Say yes
+    ZPOT->>Other Organizations: Supply the boxes
+    Note over Other Organizations: Plastic cup gathering extention
+    Note right of Other Organizations: After 9 months
+    Note over Other Organizations: Count the number of plastic cups
+    Other Organizations->>ZPOT: Collection
     Note over ZPOT: Counting
     ZPOT->>RFD: Send used plastic cups
     Note over RFD: Reuse for seeding
