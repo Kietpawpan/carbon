@@ -39,7 +39,7 @@ flowchart LR
     D-->|no| H[burning]
     H-->I[carbon emission]
 ```
-Considering both carbon emission reduction and carbon sequestration, we have:
+Hence, we have:
 
 ## Carbon Emission Reduction (CER)
 > _CER = c * w * e_    
