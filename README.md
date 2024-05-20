@@ -9,7 +9,7 @@ In 2023, Zoological Park Organization of Thailand (ZPOT) conducted a project cal
 ```mermaid
 sequenceDiagram
     Note over ZPOT: Prepare fantacy boxes  
-    ZPOT-->>A["Other Agencies"]: Request for box placing areas
+    ZPOT-->>Other Agencies: Request for box placing areas
     Note over Others: Consideration
     Others-->>ZPOT: Say yes
     ZPOT->>Others: Supply the boxes
