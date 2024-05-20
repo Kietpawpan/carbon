@@ -4,7 +4,7 @@ _due to the ZPOT Kaeokla for You Project_
 ## Background
 Based on Thailand’s population, the country was estimated to emit around 2,887.04 tonCO<sub>2</sub>eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to __control plastic consumption and improve waste management practices__.[^1] 
 
-In 2023, Zoological Park Organization of Thailand (ZPOT) conducted a project called "_Kaeokla for You_", to reduce carbon emission and to increase carbon sequestration by collecting used plastic cups and giving them to the Royal Forest Department (RFD) for reuse in seed cultivation. Below is the project activities:
+In 2023, Zoological Park Organization of Thailand (ZPOT) conducted a project called "_Kaeokla for You_", to reduce carbon emission and to increase carbon sequestration by collecting used plastic cups and giving them to the Royal Forest Department (RFD) for reuse in seed cultivation in reforestration projects. Below is the project activities:
 
 ```mermaid
 sequenceDiagram
