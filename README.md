@@ -39,13 +39,13 @@ flowchart LR
     D-->|no| H[burning]
     H-->I[carbon emission]
 ```
-Hence, we have both sides of carbon reduction: carbon emission reduction and carbon absorption via sequestration.  
+Hence, we have both sides of carbon reduction: to reduce carbon emission and to increase carbon absorption via sequestration.  
 
-### Carbon Emission Reduction (CER)
-> _CER = c * w * e_    
+### Carbon Emission (CE)
+> _CE = c * w * e_    
 
 where,
-- _CER_ is carbon emission reduction from plastic cup reuse (tonCO<sub>2</sub>eq)
+- _CE_ is carbon emission from plastic cup reuse (tonCO<sub>2</sub>eq)
 - _c_ is the number of burned plastic cups (cups)
 - _w_ is the weight of one plastic cup (0.015 kg) 
 - _e_ is the average emission factor from plastic cup burning (3.54 kgCO<sub>2</sub>eq/kg).
