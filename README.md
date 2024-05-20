@@ -23,7 +23,7 @@ sequenceDiagram
     Note over RFD: Reforestration
 ```
 ## Carbon Reduction Evaluator
-Potential carbon reduction contributed by the Kaeokla for You project was evaluated using Carbon Reduction Evaluator (CRE), a web app for evaluating the potential atmospheric carbon reduction and the potential carbon emission reduction due to the reuse of plastic cups for seed cultivation and reforestration. The app was deployed at https://esc.mnre.go.th/app/co2/, which is based on the concepts described below.
+Potential carbon reduction contributed by the Kaeokla for You project was evaluated using Carbon Reduction Evaluator (CRE), a web app for evaluating the potential atmospheric carbon reduction and the potential carbon emission reduction due to the reuse of plastic cups for seed cultivation and reforestration. The app was deployed at https://esc.mnre.go.th/app/co2/. The underlying concepts and assumptions are described below.
 
 The outcomes of the Kaeokla for You Project can be displayed as follows:
 
