@@ -85,9 +85,11 @@ else{cr=0;}
 ```
 
 ## Hypotheses
-1. Plastic cups are 15 g each.
-2. All the plastic cups are subject to open burning.
-3. Carbon reduction is equivalent to carbon sequestration.
+1. Plastic cups are 12 g each.
+2. 7.8% of all the plastic cups are subject to open burning.
+3. Emission factor (open burning) of plastic products is 3.54 kgCo2eq/kg (Kittithammavong et al., 2023)
+4. Carbon sequestration is taken from TGO (2559)
+
 
 [^1]: Kittithammavong, V., Khanitchaidecha, W., and P. Thongsanit. 2023. CO2 Emissions from Plastic Consumption Behaviors in Thailand. [Sustainability 15(16):12135](https://www.mdpi.com/2071-1050/15/16/12135)
-[^2]: TGO (2559, [PDF](https://esc.mnre.go.th/app/co2/Tree_version02.pdf)).
+[^2]: TGO. 2559. How Can Trees Absorb Carbon (in Thai), ([PDF](https://esc.mnre.go.th/app/co2/Tree_version02.pdf)).
