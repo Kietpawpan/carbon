@@ -41,7 +41,7 @@ flowchart LR
     D-->|no| H[burning]
     H-->I[carbon emission]
 ```
-Hence, we have both sides of carbon reduction: to reduce carbon emission and to increase carbon absorption via sequestration.  
+Hence, we have two sides of carbon reduction: carbon emission control and carbon absorption via sequestration extension.   
 
 ### Carbon Emission (CE)
 > _CE = c * w * e_    
