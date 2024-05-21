@@ -96,8 +96,8 @@ where, sak refers to teak (_Tectona grandis_), yuka Eucalyptus (_Eucalyptus mell
 4. Carbon sequestration depends on both tree species and plantation area suitability.[^2]
 
 __Monte Kietpawpan__, Ph.D.
-Director, Service Link Center,
-Ministry of Natural Resources and Environment
+- Director, Service Link Center,
+- Ministry of Natural Resources and Environment
 
 __References__
 [^1]: Kittithammavong, V., Khanitchaidecha, W., and P. Thongsanit. 2023. CO2 Emissions from Plastic Consumption Behaviors in Thailand. [Sustainability 15(16):12135](https://www.mdpi.com/2071-1050/15/16/12135)
