@@ -14,7 +14,7 @@ sequenceDiagram
     ZPOT-->>Other Organizations: Request for bin placement
     Note over Other Organizations: Consideration
     Other Organizations-->>ZPOT: Approve
-    ZPOT->>Other Organizations: Supply the boxes
+    ZPOT->>Other Organizations: Supply the bins
     Note over Other Organizations: Plastic cup gathering extention
     Note right of Other Organizations: After 9 months
     Note over Other Organizations: Count the number of plastic cups
