@@ -11,7 +11,7 @@ Therefore, the Zoological Park Organization of Thailand (ZPOT) conducted a carbo
 ```mermaid
 sequenceDiagram
     Note over ZPOT: Prepare fantacy boxes  
-    ZPOT-->>Other Organizations: Request for box placing areas
+    ZPOT-->>Other Organizations: Request for space to place the boxes.
     Note over Other Organizations: Consideration
     Other Organizations-->>ZPOT: Approve
     ZPOT->>Other Organizations: Supply the boxes
