@@ -50,8 +50,8 @@ where,
 - _CE_ is carbon emission from plastic cup burning (tonCO<sub>2</sub>eq)
 - _c_ is the number of burned plastic cups (cups)
 - _w_ is the average weight of plastic cups (0.012 kg)
-- _f_ is a factor to convert kg to ton (1000 kg/ton)
 - _EF_ is the average emission factor from plastic product burning (3.54 kgCO<sub>2</sub>eq/kg).[^1]
+- _f_ is a factor to convert kg to ton (1000 kg/ton)
 
 ### Potential Carbon Reduction (PCR)
 > _PCR = n * m * t * 1/d * cr_
