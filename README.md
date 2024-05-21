@@ -44,7 +44,7 @@ flowchart LR
 Hence, we have two sides of carbon management: carbon emission reduction and carbon absorption via sequestration extension.   
 
 ### Carbon Emission (CE)
-> _CE = c * w/f * EF_    
+> _CE = c * w * EF/f_    
 
 where,
 - _CE_ is carbon emission from plastic cup burning (tonCO<sub>2</sub>eq)
