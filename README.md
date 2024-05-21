@@ -90,7 +90,7 @@ else{cr=0;}
 where, sak refers to teak (_Tectona grandis_), yuka Eucalyptus (_Eucalyptus melliodora_), thepha _Acacia mangium_, narong _Acacia auriculiformis_, yak _Leucaena leucocephala_, area the plantation area suitability, cr the carbon reduction rate due to sequestration (tonCO<sub>2</sub>eq/Rai/year).   
 
 ### Assumptions
-1. Plastic cups are 12 g each.
+1. Plastic cups are 12 g each in weight.
 2. 7.8% of all the plastic cups are subject to open burning.
 3. Emission factor (open burning) of plastic products is 3.54 kgCo2eq/kg.[^1]
 4. Carbon sequestration depends on both tree species and plantation area suitability.[^2]
