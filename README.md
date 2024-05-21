@@ -1,5 +1,5 @@
 # Potential Carbon Reduction
-_from Plastic Cup Reuse for Seed Cultivation and Reforestration due to the ZPOT Kaeokla for You Project_
+_through Plastic Cup Reuse for Seed Cultivation and Reforestration due to the ZPOT Kaeokla for You Project_
 
 ![Kaihla for Yoy](https://kietpawpan.github.io/carbon/kaeokla.jpg)
 
