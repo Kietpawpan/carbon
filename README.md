@@ -98,4 +98,4 @@ where, sak refers to teak (_Tectona grandis_), yuka Eucalyptus (_Eucalyptus mell
 
 __References__
 [^1]: Kittithammavong, V., Khanitchaidecha, W., and P. Thongsanit. 2023. CO2 Emissions from Plastic Consumption Behaviors in Thailand. [Sustainability 15(16):12135](https://www.mdpi.com/2071-1050/15/16/12135)
-[^2]: TGO. 2559. <i>How Can Plantation Reduce Global Warming</i> (in Thai), ([PDF](https://esc.mnre.go.th/app/co2/Tree_version02.pdf)).
+[^2]: TGO. 2559. <i>How Can Plantation Reduce Global Warming?</i> (in Thai), ([PDF](https://esc.mnre.go.th/app/co2/Tree_version02.pdf)).
