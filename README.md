@@ -60,7 +60,7 @@ where,
 - _PCR_ is the potential carbon reduction due to sequestration (tonCO<sub>2</sub>eq/year)
 - _n_ is the number plastic cups collected (cups/month)
 - _m_ is the number of months per year (12 months/year)
-- _t_ is the number of seeds per cup (seeds/cup) 
+- _t_ is the number of trees per cup (trees/cup) 
 - _d_ is the plantation density (200 trees/Rai)
 - _cr_ is carbon reduction rate due to sequestration (tonCO<sub>2</sub>eq/Rai/year), determined by tree species and plantation area suitability[^2], expressed in JavaScript as follows:
   
