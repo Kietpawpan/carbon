@@ -36,7 +36,7 @@ by Monte Kietpawpan
 
 </span></p></div>
            
-We are reported that:
+Given:
 <ul>
 <li>Antarctic ice sheet contains 26.5  &times; 10<sup>6</sup> km<sup>3</sup> of ice <sup>[<div class="popup" onclick="r1()">1
   <span class="popuptext" style="text-decoration:none;" id="r1">https://en.wikipedia.org/wiki/Antarctic_ice_sheet</a></span>
@@ -53,14 +53,14 @@ We are reported that:
 
 </ul>
 
-Hence, the minimum volume of Antarctic ice above sea level was equal to (26.5 - 2.6) &times; 10<sup>6</sup> km<sup>3</sup>, or 23.9 &times; 10<sup>6</sup> km<sup>3</sup>, which will contribute to sea level rise. If all melt, it will become seawater. The volume of seawater melt from the ice is the volume of the ice above sea level multiplied by 0.92&mdash;the conversion factor for the volume of ice to liquid water<sup>[<div class="popup" onclick="r4()">4
-  <span class="popuptext" style="text-decoration:none;" id="r4">https://sciencing.com/calculate-volume-ice-7851671.html</span></div>]</sup>. So, the ice contributes 23.9 &times; 10<sup>6</sup> &times; 0.92, or 21.988 km<sup>3</sup> of water after melting.
+Hence, the minimum volume of Antarctic ice above sea level equals to (26.5 - 2.6) &times; 10<sup>6</sup> km<sup>3</sup>, or 23.9 &times; 10<sup>6</sup> km<sup>3</sup>, contributing to sea level rise. The volume of seawater melt from the ice is the volume of the ice above sea level multiplied by 0.92&mdash;the conversion factor for the volume of ice to liquid water<sup>[<div class="popup" onclick="r4()">4
+  <span class="popuptext" style="text-decoration:none;" id="r4">https://sciencing.com/calculate-volume-ice-7851671.html</span></div>]</sup>. So, the ice contributes 23.9 &times; 10<sup>6</sup> &times; 0.92, or 21.988 &times; 10<sup>6</sup> km<sup>3</sup> of water after melting.
 </p>
 
 </div>
 <div class="collumn">
 
-<p>We know that the ocean surface area is 360 &times; 10<sup>6</sup> km<sup>3</sup>. So, the water volume of 21.988 km<sup>3</sup> will rais the sea level to 21.988/360 km<sup></sup>, or 61 m. However, the earth is spherical in shape, the 21.988 km<sup>3</sup> is the volume of the spherical shell<sup>[5]</sup>, based on the following conditions:
+<p>As the ocean surface area is 360 &times; 10<sup>6</sup> km<sup>3</sup>, the water volume of 21.988 km<sup>3</sup> will rais the sea level to 21.988/360 km<sup></sup>, or 61 m. However, the earth surface is spherical, the volume of Amtractic Ice Sheet above sea level, after melting, should be viewed as the volume of the spherical shell<sup>[5]</sup>, based on the following conditions:
 </p>
 
 <ul>
@@ -98,7 +98,7 @@ let H = h.toFixed(1);
 
 <p>This estimatiom is close to the BedMachine's estimated sea level equivalent: <font color="red">57.9 ± 0.9</font> m (<a href="https://www.nature.com/articles/s41561-019-0510-8" style="text-decoration: none;">Morlighem <i>et al</i>., 2020</a>). 
 </p><p>
-Only the West Antarctic Ice Sheet, containing 2.1 &times; 10<sup>6</sup> km<sup>3</sup> of ice that is above sea level (<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2000JB900449" style="text-decoration: none;">Lythe and Vaughan, 2001</a>), enought to raise global sea water by about 4.7 m, slightly greater than <a href="https://tc.copernicus.org/articles/7/375/2013/tc-7-375-2013.pdf" style="text-decoration:none;">Fretwell et al. (2013)</a>'s finding (4.3 m). 
+Only the West Antarctic Ice Sheet, containing 2.1 &times; 10<sup>6</sup> km<sup>3</sup> of ice that is above sea level (<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2000JB900449" style="text-decoration: none;">Lythe and Vaughan, 2001</a>), enought to raise global sea water by about <font color="blue">4.7</font> m, slightly greater than <a href="https://tc.copernicus.org/articles/7/375/2013/tc-7-375-2013.pdf" style="text-decoration:none;">Fretwell et al. (2013)</a>'s finding (<font color="red">4.3</font> m). 
 </p>
 
 <p>
@@ -162,7 +162,8 @@ let m = document.getElementById('melt').value;
 let e = document.getElementById('eva').value;
 let rate = document.getElementById('rate').value;
 let r = 6378;
-let V0 = document.getElementById('vol').value * 0.92 * 1000000;
+let V00 = document.getElementById('vol').value;
+let V0 = V00 * 0.92 * 1000000;
 let V1 =  V0 * m/100;
 let V = V1 - (V1 * e/100);
 let pi = Math.PI;
@@ -172,7 +173,7 @@ let R = Math.pow(R3, 1/3);
 let h = (R - r) * 1000;
 let T = m/rate;
 if(m =="" || e=="" || rate==""){alert("Please fill data.");}
-else{document.getElementById('run').innerHTML = "<br>Given the volume of Antractic Ice Sheet above sea level is 23.9 &times; 10<sup>6</sup> km<sup>3</sup> and the meelting rate is " + rate + " % per year, <font color='red'>the sea level will raise by " + h.toFixed(1) + " m</font>. <u>Cities at " + h.toFixed(1) + " m MSL</u>, without shore protection, <font color='red'>will get sunk in " + T.toFixed(0) + " years</font>.";}
+else{document.getElementById('run').innerHTML = "<br>Given the volume of the ice sheet above sea level (" + V00 + " &times; 10<sup>6</sup> km<sup>3</sup>) has melt by " + m + "% at " + rate + " % per year, <font color='red'>the sea level will raise by " + h.toFixed(1) + " m</font>. <u>Cities at " + h.toFixed(1) + " m MSL</u>, without shore protection, <font color='red'>will get sunk in " + T.toFixed(0) + " years</font>.";}
 }
 
 </script>
