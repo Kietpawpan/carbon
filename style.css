@@ -1,0 +1,33 @@
+  .header-container {
+    text-align: center;
+    font-size: 33px;
+    color: #fff;
+    min-height: 23vh;
+    position: relative;
+    background-image:url('https://kietpawpan.github.io/images/001.jpeg');
+    background-repeat: repeat-y;
+   	  }
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  td {
+    line-height: 50px;
+  }
+  .header-text {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    color:white;	
+  }
+  thead,tbody {
+    text-align:left;
+    font-size:18px;
+  }
+  #data-table_wrapper {
+    padding-bottom: 12px;
+  }
