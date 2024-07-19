@@ -95,7 +95,7 @@ where, sak refers _Tectona grandis_, yuka _Eucalyptus melliodora_, thepha _Acaci
 3. Emission factor (open burning) of plastic products is 3.54 kgCo2eq/kg.[^1]
 4. Carbon sequestration depends on both tree species and plantation area suitability.[^2]
 
-Climate change can increase seawater level. For more analysis, see [paper](https://kietpawpan.github.io/carbon/paper.html)
+Climate change is due to global warming, which causes Antractic Ice Sheet melting,  which raises sea level. For more analysis, see [paper](https://kietpawpan.github.io/carbon/paper.html)
 
 __References__
 [^1]: Kittithammavong, V., Khanitchaidecha, W., and P. Thongsanit. 2023. CO2 Emissions from Plastic Consumption Behaviors in Thailand. [Sustainability 15(16):12135](https://www.mdpi.com/2071-1050/15/16/12135)
