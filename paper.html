@@ -64,11 +64,11 @@ Antarctic ice sheet contains 26.5  &times; 10<sup>6</sup> km<sup>3</sup> of ice 
 <br><br>
 <img src="R.png" style="height:45px;"></img>
 <br>
+<img class="media" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Kugelschale.svg">
 <p><br>
 where <b><i>H</b></i> is the sea level raise due to ice melt (m); <b><i>R</b></i> is the radius of the Earth after sea level raise (km); <b><i>r</b></i> is the radius of the Earth prior to sea level raise (6,378 km); <b><i>V</b></i> is the volume of Antarctic ice above sea level (21.988 &times; 10<sup>6</sup> km<sup>3</sup>); and <b><i>π</b></i> is the ratio of a circle's circumference to its diameter, equal to 3.141592653589793 (Dmnl).
 </p>
 <p><br>
-<img class="media" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Kugelschale.svg">
 The above equations can be written in javaScript as follows:
 
 </div>
@@ -145,7 +145,7 @@ let r3 = Math.pow(r,3);
 let R3 = ((V*3/2.87)/pi)+r3;
 let R = Math.pow(R3, 1/3);
 let h = (R - r) * 1000;
-document.getElementById("ans").innerHTML = "Hence, the sea level will increase by<font color='blue'> " + h.toFixed(1) + " </font>m (H), based on the following equations:<br><br>";
+document.getElementById("ans").innerHTML = "Hence, the sea level will increase by<font color='blue'> " + h.toFixed(1) + " </font>m (H), based on the following conceptual model and equations:<br><br>";
 
 function sle(){
 let m = document.getElementById('melt').value;
