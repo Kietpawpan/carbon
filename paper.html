@@ -2,7 +2,7 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="newspaper.css">
-    <title>Bangkok</title>
+    <title>Sea Level Rise</title>
     <meta name="viewport" content="width=device-width">
 </head>
 <body>
@@ -14,7 +14,7 @@ Can a coastal city be sunk in the next 30 years?
 
 </span><br><span>
 
-Yes, of cause.
+It depends on ice sheets melted.
 
 </span></div>
         <header>Nature Reviews</header>
@@ -63,7 +63,7 @@ Antarctic ice sheet contains 26.5  &times; 10<sup>6</sup> km<sup>3</sup> of ice 
 <img class="media" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Kugelschale.svg"></img><br><br>
 <img src="H.png" style="height:15px;"></img>
 <br><br>
-<img src="R.png" style="height:45px;"></img>
+<img src="eq2.png" style="height:45px;"></img>
 <br>
 <p><br>
 where <b><i>H</b></i> is the sea level raise due to ice melt (m); <b><i>R</b></i> is the radius of the Earth after sea level raise (km); <b><i>r</b></i> is the radius of the Earth prior to sea level raise (6,378 km); <b><i>V</b></i> is the volume of Antarctic ice above sea level (21.988 &times; 10<sup>6</sup> km<sup>3</sup>); and <b><i>π</b></i> is the ratio of a circle's circumference to its diameter, equal to 3.141592653589793 (Dmnl).
@@ -79,19 +79,19 @@ let r = 6378;
 let V = 21.988 * 1000000;
 let pi = Math.PI;
 let r3 = Math.pow(r,3);
-let R3 = ((V*3/2.87)/pi)+r3;
+let R3 = ((V*3/2.97)/pi)+r3;
 let R = Math.pow(R3, 1/3);
 let h = (R - r) * 1000;
 let H = h.toFixed(1);
 </pre>
 <h2>Results & Discussions</h2>
-<p>The estimated sea level equivant of <b>the Antractic Ice Sheet</b> was (<font color="blue">59.9</font> m), slightly higher than that of the BedMachine (<font color="red">57.9 ± 0.9</font> m) noted in <a href="https://www.nature.com/articles/s41561-019-0510-8" style="text-decoration: none;">Morlighem <i>et al</i> (2020)</a>.
+<p>The estimated sea level equivant of <b>the Antractic Ice Sheet</b> was (<font color="blue">57.9</font> m), similar to that of the BedMachine (<font color="red">57.9 ± 0.9</font> m) noted in <a href="https://www.nature.com/articles/s41561-019-0510-8" style="text-decoration: none;">Morlighem <i>et al</i> (2020)</a>.
 </p><p>
-The model shows that only <b>the West Antarctic Ice Sheet</b>, containing 2.1 &times; 10<sup>6</sup> km<sup>3</sup> of ice above sea level (<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2000JB900449" style="text-decoration: none;">Lythe and Vaughan, 2001</a>), is enough to raise global sea water by about <font color="blue">4.7</font> m, slightly greater than <a href="https://tc.copernicus.org/articles/7/375/2013/tc-7-375-2013.pdf" style="text-decoration:none;">Fretwell et al. (2013)</a>'s finding (<font color="red">4.3</font> m). 
+The model shows that only <b>the West Antarctic Ice Sheet</b>, containing 2.1 &times; 10<sup>6</sup> km<sup>3</sup> of ice above sea level (<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2000JB900449" style="text-decoration: none;">Lythe and Vaughan, 2001</a>), is enough to raise global sea water by about <font color="blue">5.1</font> m, slightly greater than <a href="https://tc.copernicus.org/articles/7/375/2013/tc-7-375-2013.pdf" style="text-decoration:none;">Fretwell et al. (2013)</a>'s finding (<font color="red">4.3</font> m). 
 </p>
 
 <p>
-<b>The East Antarctic Ice Sheet</b> has a volume of 21.76 × 10<sup>6</sup> km<sup>3</sup> of grounded ice, equivalent to ∼<font color="blue">54.6</font> m in mean sea-level equivalent, compared with ∼<font color="red">53</font> m in <a href="https://tc.copernicus.org/articles/7/375/2013/tc-7-375-2013.pdf" style="text-decoration:none;">Fretwell et al. (2013)</a> and <a href="https://www.sciencedirect.com/science/article/pii/S0277379113002898" style="text-decoration:none;">Mackintosh et al. (2014)</a>.
+<b>The East Antarctic Ice Sheet</b> has a volume of 21.76 × 10<sup>6</sup> km<sup>3</sup> of grounded ice, equivalent to ∼<font color="blue">52.7</font> m in mean sea-level equivalent, compared with ∼<font color="red">53</font> m in <a href="https://tc.copernicus.org/articles/7/375/2013/tc-7-375-2013.pdf" style="text-decoration:none;">Fretwell et al. (2013)</a> and <a href="https://www.sciencedirect.com/science/article/pii/S0277379113002898" style="text-decoration:none;">Mackintosh et al. (2014)</a>.
 </p>
 
 </div>
@@ -136,15 +136,19 @@ Copyright &copy; 2024 by Lagrida (https://latexeditor.lagrida.com)
 <br><br>
 <b>Spherical Shell Image</b><br>
 Copyright &copy; 2016 by Ag2gaeh (https://commons.wikimedia.org/wiki/File:Kugelschale.svg)
+
+<br><br>
+<font color="red">Although every effort has been made to ensure the accuracy of the material contained in this publication, 
+complete accuracy cannot be guaranteed.  The author does not accept any responsibility whatsoever for loss or damage occasioned or claimed to have been occasioned, in part or in full, as a consequence of any person acting or refraining from acting, as a result 
+of a matter contained in this publication.  All or part of this publication may be reproduced without further permission provided the source is acknowledged.
+</font>
 </div>
-
-
 <script>
 let r = 6378;
 let V = 21.988 * 1000000;
 let pi = Math.PI;
 let r3 = Math.pow(r,3);
-let R3 = ((V*3/2.87)/pi)+r3;
+let R3 = ((V*3/2.97)/pi)+r3;
 let R = Math.pow(R3, 1/3);
 let h = (R - r) * 1000;
 document.getElementById("ans").innerHTML = "Hence, the sea level will increase by<font color='blue'> " + h.toFixed(1) + " </font>m (H), based on the following conceptual model and equations:<br><br>";
@@ -160,7 +164,7 @@ let V1 =  V0 * m/100;
 let V = V1 - (V1 * e/100);
 let pi = Math.PI;
 let r3 = Math.pow(r,3);
-let R3 = ((V*3/2.87)/pi)+r3;
+let R3 = ((V*3/2.97)/pi)+r3;
 let R = Math.pow(R3, 1/3);
 let h = (R - r) * 1000;
 let T = m/rate;
