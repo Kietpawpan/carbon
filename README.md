@@ -41,7 +41,7 @@ flowchart LR
     D-->|no| H[burning]
     H-->I[carbon emission]
 ```
-The Kaeokla for You project addresses both sides of carbon management: reducing carbon emissions and increasing carbon absorption through sequestration. This dual approach is crucial for effectively mitigating climate change
+The Kaeokla for You project addresses both sides of carbon management: reducing carbon emissions and increasing carbon absorption through sequestration. This dual approach is crucial for effectively mitigating climate change.
 
 ### Carbon Emission (CE)
 > _CE = c * w * EF/f_    
