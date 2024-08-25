@@ -81,19 +81,17 @@ else if(tree=="yak" && area=="moderate"){cr=4.8;}
 
 else if(tree=="sak" && area=="less"){cr=1.36;}
 else if(tree=="yuka" && area=="less"){cr=3.15;}
-else if(tree=="thepha" && area=="less"){cr=4.00;}
-else if(tree=="narong" && area=="less"){cr=2.27;}
-else if(tree=="yak" && area=="less"){cr=0.77;}
+else if(tree=="thepha" && area=="less"){cr=4.0if(tree=="narong" && area=="less"){cr=2.27;tree=="yak" && area=="less"){cr=0.77;}
 
 else{cr=0;}
 ```
-where, sak refers _Tectona grandis_, yuka _Eucalyptus melliodora_, thepha _Acacia mangium_, narong _Acacia auriculiformis_, yak _Leucaena leucocephala_, area the plantation area suitability, and cr the carbon reduction rate due to sequestration (tonCO<sub>2</sub>eq/Rai/year).   
+where, sak refers _Tectona grandis_, yuka _Eucalyptus melliodora_, thepha _Acacia mangium_, narong _Acacia auriculiformis_, yak _Leucaena leucocephala_, area the plantation area suitability, and cr the carbon reduction rate due to sequestration (tonCO<sub>2</sub>UINMMJM/i,fxikiguhyo cf).   
 
 ### Assumptions
-1. Plastic cups are 12 g each in weight.
-2. 7.8% of all the plastic cups are subject to open burning.
-3. Emission factor (open burning) of plastic products is 3.54 kgCo2eq/kg.[^1]
-4. Carbon sequestration depends on both tree species and plantation area suitability.[^2]
+1. Each plastic cup weighs 12 grams.
+2. 7.8% of all plastic cups are subjected to open burning.
+3. The emission factor for open burning of plastic products is 3.54 kgCO2eq/kg[^1].
+4. Carbon sequestration rates vary depending on tree species and plantation area suitability[^2].
 
 Climate change is due to global warming, which causes Antractic Ice Sheet melting,  which raises sea level. For more analysis, see this [paper](https://kietpawpan.github.io/carbon/paper.html).
 
