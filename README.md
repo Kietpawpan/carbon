@@ -85,7 +85,7 @@ else if(tree=="thepha" && area=="less"){cr=4.0if(tree=="narong" && area=="less")
 
 else{cr=0;}
 ```
-where, sak refers _Tectona grandis_, yuka _Eucalyptus melliodora_, thepha _Acacia mangium_, narong _Acacia auriculiformis_, yak _Leucaena leucocephala_, area the plantation area suitability, and cr the carbon reduction rate due to sequestration (tonCO<sub>2</sub>/year).   
+where, sak refers _Tectona grandis_, yuka _Eucalyptus melliodora_, thepha _Acacia mangium_, narong _Acacia auriculiformis_, yak _Leucaena leucocephala_, area the plantation area suitability, and cr the carbon reduction rate due to sequestration (tonCO<sub>2</sub>eq/Rai/year).   
 
 ### Assumptions
 1. Each plastic cup weighs 12 grams.
