@@ -93,7 +93,7 @@ where, sak refers _Tectona grandis_, yuka _Eucalyptus melliodora_, thepha _Acaci
 3. The emission factor for open burning of plastic products is 3.54 kgCO2eq/kg.[^1]
 4. Carbon sequestration rates vary depending on tree species and plantation area suitability.[^2]
 
-Climate change is due to global warming, which causes Antractic Ice Sheet melting,  which raises sea level. For more analysis, see this [paper](https://kietpawpan.github.io/carbon/paper.html).
+Climate change, primarily driven by global warming, is a significant contributor to the melting of the Antarctic Ice Sheet, which in turn leads to rising sea levels. For a more in-depth analysis, please refer to the following [paper](https://kietpawpan.github.io/carbon/paper.html).
 
 __References__
 [^1]: Kittithammavong, V., Khanitchaidecha, W., and P. Thongsanit. 2023. CO2 Emissions from Plastic Consumption Behaviors in Thailand. [Sustainability 15(16):12135](https://www.mdpi.com/2071-1050/15/16/12135)
