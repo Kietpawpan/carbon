@@ -6,7 +6,7 @@ _through Plastic-Cup Reuse for Starting Seeds in Reforestration Projects: A Case
 ## Background
 Thailand was estimated to emit around 2,887.04 tonCO<sub>2</sub>eq/day or 1.05 million tons/year due to plastic waste. These emissions contribute to global GHG emissions, highlighting the need to control plastic consumption and improve waste management practices.[^1] 
 
-Therefore, the Zoological Park Organization of Thailand (ZPOT) conducted a carbon project called ["_Kaeokla for You_"](https://www.thairath.co.th/futureperfect/articles/2724870), to reduce carbon emission and increase carbon sequestration, by supplying zoo-animal shaped bins to participating agencies for collecting used plastic cups. The cups were then sent to the Royal Forest Department (RFD) for starting seeds in reforestration projects. Below is the project activities:
+The Zoological Park Organization of Thailand (ZPOT) conducted a carbon project called ["_Kaeokla for You_"](https://www.thairath.co.th/futureperfect/articles/2724870), to reduce carbon emission and increase carbon sequestration, by supplying zoo-animal shaped bins to participating agencies for collecting used plastic cups. The cups were then sent to the Royal Forest Department (RFD) for starting seeds in reforestation projects. Below is the project activities:
 
 ```mermaid
 sequenceDiagram
