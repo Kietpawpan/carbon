@@ -90,8 +90,8 @@ where, sak refers _Tectona grandis_, yuka _Eucalyptus melliodora_, thepha _Acaci
 ### Assumptions
 1. Each plastic cup weighs 12 grams.
 2. 7.8% of all plastic cups are subjected to open burning.
-3. The emission factor for open burning of plastic products is 3.54 kgCO2eq/kg[^1].
-4. Carbon sequestration rates vary depending on tree species and plantation area suitability[^2].
+3. The emission factor for open burning of plastic products is 3.54 kgCO2eq/kg.[^1]
+4. Carbon sequestration rates vary depending on tree species and plantation area suitability.[^2]
 
 Climate change is due to global warming, which causes Antractic Ice Sheet melting,  which raises sea level. For more analysis, see this [paper](https://kietpawpan.github.io/carbon/paper.html).
 
